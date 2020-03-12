@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: arial;
+}
+
+#hello
+{
+    background-image: url('../pictures/hello.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+#hello form
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+header
+{
+    padding: 30px;
+}
+
+#logo
+{
+    height: 50px;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+input[type=url]
+{
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    padding: 17px 30px;
+    border: none;
+    width: 50%;
+    font-size: 21px;
+}
+
+input[type=submit]
+{
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 17px 30px;
+    border: none;
+    font-size: 21px;
+    background: #ee6123;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#brands
+{
+    background: #eff7fc;
+    padding: 30px;
+    text-align: center;
+}
+
+h3
+{
+    margin: 0;
+    color: #ee6123;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#brands img
+{
+    height: 35px;
+    margin: 15px;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+footer #logo2
+{
+    height: 35px;
+}
+
+footer a
+{
+    color: #ee6123;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover
+{
+    color: #ee6123;
+    text-decoration: none;
+}
